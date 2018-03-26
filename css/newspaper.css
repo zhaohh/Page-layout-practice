@@ -1,0 +1,440 @@
+/*
+This is a Cascading Style Sheet (CSS).
+It describes rules for styling your HTML markup.
+
+To use this file, place the following <link> tag anywhere in the <head> of your HTML file, making sure that the filename after "href" matches the name of your file....
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+Learn more about CSS at https://developer.mozilla.org/en-US/docs/Web/Guide/CSS
+
+When you're done, you can delete all of this grey text, it's just a comment.
+*/
+
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  margin: 0 auto;
+  width: 900px;
+  height: 1386px;
+  border: 1px solid #ddd;
+  padding: 0px 40px 20px 40px;
+}
+.header{
+  overflow: hidden;
+  height: 61px;
+  width:892px;
+  position: relative;
+}
+.red-block{
+  position: absolute;
+  width:110px;
+  height: 61px;
+  background-color: #D55D5C; 
+}
+.red-block p{
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 45px;
+  margin-left: 15px;
+  font-family: 	simHei;
+}
+.top-p{
+  position: absolute;
+  right: 0;
+  color: #D55D5C;
+  font-size: 12px;
+  font-family: 	"simHei";
+  bottom: 0;
+}
+.horizon-top{
+  width: 892px;
+  height: 2px;
+  background-color: #938e8c;
+}
+.part1{  
+  width:892px;
+  height: 301px;
+  margin-top: 30px;
+}
+.part1-photo{
+  float: left;
+  width: 641px;
+  height: 301px;
+  position: relative;
+}
+.shadow-green{
+  position: absolute;
+  width: 191px;
+  height: 301px;
+  top:0;
+  left: 0;
+  background-color: rgba(117,184,107,0.4);
+}
+.shadow-pink{
+  top: 0;
+  right:0;
+  position: absolute;
+  width: 191px;
+  height: 301px;
+  background-color: rgba(213,93,92,0.4);
+}
+.part1-content{
+  float: right;
+  height: 301px;
+  width: 203px;
+}
+.horizon-right{
+  width: 203px;
+  height: 2px;
+  background-color: #cc8091;
+}
+.title-bg{
+  float: left;
+  font-size: 24px;
+  color: #000000;
+  border-bottom: 2px solid #000000;
+  font-family: "Microsoft YaHei";
+  line-height: 40px;
+  
+}
+.title-bg::first-letter{  
+  font-size: 1.5em;
+}
+.title-sm{
+  clear: both;
+  font-size: 12px;
+  color: #676767;
+  font-family:"KaiTi";
+  padding-top: 5px;
+  line-height: 10px;
+}
+.number-bg{
+  font-size: 116px;
+  color: #75b86b;
+  font-family: "Microsoft YaHei";
+  font-style:italic;
+  text-indent: -30px;
+  line-height: 120px;
+}
+.number-sm{
+  float: left;
+  font-size: 55px;
+  color: #cc8091;
+  font-family: "Microsoft YaHei";
+}
+.text-bg{
+  font-size: 21px;
+  color: #cc8091;
+  font-family: "Microsoft YaHei";
+  margin-top: 18px;
+  margin-left: 85px;
+}
+.text-sm{
+  font-size: 12px;
+  color: #cc8091;
+  font-family: "Microsoft YaHei";
+  margin-left: 85px;
+}
+.part2{
+  margin-top: 30px;
+  width: 641px;
+  height: 200px;
+}
+.part2-right{
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+}
+.part2-right-title{
+  font-size: 16px;
+  color: #418c59;
+  font-family: "Microsoft YaHei";
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.part2-right-content{
+  font-size: 12px;
+  color: #767777;
+  font-family: "SimSun";
+  line-height: 16px;
+}
+.part2-center{
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+}
+.part2-center-title{
+  font-size: 16px;
+  color: #d2994f;
+  font-family: "Microsoft YaHei";
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.part2-center-content{
+  font-size: 12px;
+  color: #231815;
+  font-family: "Microsoft YaHei";
+  line-height: 16px;
+  opacity: 0.7;
+}
+.part2-left{
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+}
+.part2-left-title{
+  font-size: 16px;
+  color: #cc7680;
+  font-family: "Microsoft YaHei";
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.part2-left-content{
+  font-size: 12px;
+  color: #231815;
+  font-family: "Microsoft YaHei";
+  line-height: 20px;
+  opacity: 0.7;
+  padding-bottom: 20px;
+}
+.part2-left-content2{
+  font-size: 14px;
+  color: #767777;
+  font-family: "Microsoft YaHei";
+}
+.part2-left-number{
+  font-size: 12px;
+  color: #CD4A48;
+  font-family: "Microsoft YaHei";
+  line-height: 16px;
+  opacity: 0.7;
+  font-style: italic;
+}
+.part3{
+  margin-top: 30px;
+  width: 892px;
+  height: 650px;
+}
+.part3-left{
+  float: left;
+  width:415px;
+}
+.part3-title-en{
+  font-size: 42px;
+  font-family: 	"simHei";
+  color: #11456b;
+  font-weight: bold;
+  line-height: 16px;
+}
+.title-first-letter{
+  font-size: 72px;
+  font-family: 	"simHei";
+  color: #f5e327;
+  font-style: italic;
+  font-weight: bold;
+
+}
+.part3-title-cn{
+  font-size: 33px;
+  font-family: 	"simHei";
+  color: #11456b;
+  font-weight: bold;
+}
+.part3-left-title{
+  width: 415px;
+  border-bottom: 2px solid #11456b;
+}
+.part3-left-content{
+  width: 415px;
+  height: 600px;
+}
+.part3-left-content1,.part3-left-content2,.part3-left-content3{
+  font-size: 12px;
+  font-family: 	"SimSun";
+  color: #767777;
+  line-height: 16px;
+  opacity: .8
+}
+.content-first-letter{
+  line-height: 70px;
+  font-size: 70px;
+  font-family: 	"Microsoft YaHei";
+  color: #f5e327;
+  float: left;
+}
+.part3-left-content2,.part3-left-content3{
+  text-indent: 2em;  
+}
+.part3-left-photo{
+  float: right;
+  padding: 8px;
+}
+.part3-right{
+  float: left;
+  width: 458px;
+  height: 275px;
+  margin-left: 15px;
+  position: relative;
+}
+.shadow-grey{
+  width: 458px;
+  height: 61px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  background-color: rgba(93,93,93,0.4);
+  
+}
+.shadow-hr{
+  width: 3px;
+  height: 44px;
+  background-color: #72b16a;
+  position: absolute;
+  left: 30px;
+  bottom: 8px;  
+}
+.shadow-title{
+  color:#ffffff;
+  font-size: 26px;
+  font-family: 	"Microsoft YaHei";
+  position: absolute;
+  left: 45px;
+  bottom: 15px;
+}
+.shadow-title-sm{
+  color:#72b16a;
+  font-size: 12px;
+  font-family: 	"Microsoft YaHei";
+  font-style: italic;
+  letter-spacing: 140%;
+  padding-left: 10px;
+}
+.part3-right-content{
+  margin-top: 25px;
+  width:459px;
+  height: 318px;
+  background-color: #eeeed6;
+}
+.part3-right-ul{
+  padding: 30px 20px 17px 30px;
+}
+.part3-right-li{
+  list-style: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-family: "Simsun";
+  text-align: left;
+  line-height: 20px;
+  color: #5a5b5b;
+}
+.triangle{
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #000;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  display: inline-block;
+}
+.part3-right-li span{
+  font-size: 12px;
+  font-style: italic;
+  color: #5a5b5b;
+  text-align: right;
+  line-height: 20px;
+}
+.part3-right-pink{
+  float: left;
+  width:260px;
+  height: 160px;
+  background-color: #d55d5c;
+  position: relative;
+}
+.part3-right-num{
+  float: left;
+  font-size: 110px;
+  color: #ffffff;
+  font-family: 	"Microsoft YaHei";
+  margin: 5px;
+  display: inline-block;
+}
+.part3-num-caption{
+  height: 86px;
+  border-left: 2px solid #ffffff;
+  margin-left: 70px;
+  margin-top: 37px;
+}
+.caption-bg{
+  color: #ffffff;
+  font-size: 21px;
+  font-family: "Simhei";
+  font-style:italic;
+  line-height: 24px;
+  display: inline-block;
+}
+.caption-sm{
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Simhei";
+  padding:6px;
+}
+.part3-num-caption-text{
+  float: right;
+  width: 185px;
+  height: 160px;
+  font-size: 14px;
+  font-style: italic;
+  font-family: "Simhei";
+  line-height: 16px;
+  color: #5a5b5b;
+}
+.quote-left,.quote-right{
+  font-size: 72px;
+  font-family: "Simhei";
+  color: #d45d5c;
+}
+.quote-left{
+  float: left;
+  margin: 20px 20px -20px -55px;
+}
+.quote-right{
+  float: right;
+  margin: 25px 5px -25px -50px;
+}
+.horizon-bottom{
+  width: 892px;
+  height: 1px;
+  background-color: #938e8c;
+  margin-top: 40px;
+}
+.footer-caption{
+  font-size:12px;
+  color: #d45d5c;
+  float: right;
+  margin-right: 8px;
+}

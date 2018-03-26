@@ -1,0 +1,42 @@
+body,h3,ul{
+	margin: 0;
+	padding: 0;
+}
+#page-nav{
+	width: 600px;
+	height: auto;
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+h3{
+	font-family:serif;
+	font-size: 30px;
+}
+ul{
+	list-style: disc;
+	padding: 20px;
+	font: 18px serif;
+	color: #000;
+}
+ul li{
+	margin: 5px 0;
+}
+a:link{
+	text-decoration: none;
+	color: #4169E1;
+}
+a:visited{
+	text-decoration: none;
+	color: #4169E1;
+}
+a:hover{
+	text-decoration: underline;
+	color: #4169E1;
+}
+a:active{
+	text-decoration: none;
+	color: #4169E1;
+}

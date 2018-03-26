@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container table{
+	width: 300px;
+	margin: 0 auto;
+}
+table thead tr th{
+	background-color: #000;
+	color: #fff;
+	text-align: left;
+}
+.table-content tr:nth-of-type(1),.table-content tr:nth-of-type(2),.table-content tr:nth-of-type(3){
+	color: #f00;
+}
+.table-content tr:nth-child(even){
+	background-color: #ddd;
+}
+input{
+	margin: 30px auto;
+	width: 200px;
+	height: 20px;
+	display: block;
+	border: 1px solid #ddd;
+	-webkit-transition: width 3s,height 3s,border 3s;
+	transition: width 3s,height 3s,border 3s;
+}
+input:focus{
+	width: 400px;
+	height: 50px;
+	border: 2px solid #79abe8;
+}
+.boxes{
+	width: 300px;
+	height: 150px;
+	margin: 30px auto;
+	position: relative;
+	overflow: hidden;
+}
+.boxes ul{	
+	position: absolute;
+	list-style: none;
+}
+.box{
+	width: 900px;
+	animation: slide 5s ease-out infinite alternate;
+}
+.box li{
+	width: 300px;
+	height: 150px;		
+	float: left;
+}
+.box1{
+	background-color: #008100;
+}
+.box2{
+	background-color: #0100fe;
+}
+.box3{
+	background-color: #f00;
+}
+.btn{
+	right:0 ;
+	bottom: 0;
+}
+.btn li{	
+	width: 30px;
+	height: 30px;	
+	line-height: 30px;
+	float: left;
+	background-color: rgba(255,255,255,.4);
+	color: #fff;
+	text-align: center;
+}
+.btn li:nth-child(2){
+	margin: 0 3px;
+}
+@-webkit-keyframes slide{
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	33% {margin-left: -300px;}
+	66% {margin-left: -300px;}
+	100% {margin-left: 0;}
+}
+@keyframes slide{
+	0% {margin-left: 0;}
+	33% {margin-left: -300px;}
+	66% {margin-left: -600px;}
+	100% {margin-left: 0;}
+}
+
